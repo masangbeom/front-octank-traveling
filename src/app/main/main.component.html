@@ -1,0 +1,35 @@
+<div class="banner">
+  <mat-form-field appearance="fill">
+    <mat-label>Enter a date range</mat-label>
+    <mat-date-range-input [formGroup]="range" [rangePicker]="picker">
+      <input matStartDate formControlName="start" placeholder="Start date">
+      <input matEndDate formControlName="end" placeholder="End date">
+    </mat-date-range-input>
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-date-range-picker #picker></mat-date-range-picker>
+
+    <mat-error *ngIf="range.controls.start.hasError('matStartDateInvalid')">Invalid start date</mat-error>
+    <mat-error *ngIf="range.controls.end.hasError('matEndDateInvalid')">Invalid end date</mat-error>
+  </mat-form-field>
+</div>
+<div class="card-wrapper">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Shiba Inu</mat-card-title>
+      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+        A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+        bred for hunting.
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

@@ -1,0 +1,197 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.login-button {
+  margin-right: 16px;
+}
+.banner {
+  height: 600px;
+  width: 100%;
+  background-image:url('../../assets/images/octank-main.jpeg');
+  background-size: cover;
+  .example-form-field {
+    margin: 0 8px 16px 0;
+  }
+}
+.card-wrapper {
+  padding: 16px;
+  background: #e8e8e8;
+  .example-card {
+    max-width: 400px;
+  }
+
+  .example-header-image {
+    background-size: cover;
+  }
+}
+
+
+
+
+//@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+//body {
+//  font-family: 'Nanum Gothic', sans-serif;
+//}
+//
+//header{
+//  height: 600px;
+//  background-image:url('../assets/images/octank-main.jpeg');
+//  background-size: cover;
+//}
+//
+//nav{
+//  display: grid;
+//  grid-template-columns: auto auto;
+//  justify-content: space-between;
+//}
+//
+//.logo{
+//  margin: 5px 0 0 10px;
+//}
+//
+//.menu ul{
+//  display: grid;
+//  grid-template-columns: auto auto auto auto;
+//  grid-gap: 15px;
+//  list-style-type: none;
+//  margin-right: 10px;
+//}
+//
+//.menu ul a{
+//  text-decoration: none;
+//  color: black;
+//}
+//
+//.search_box{
+//  width: 430px;
+//  background-color: white;
+//  display: inline-block; /*자리차지 안하게*/
+//  padding: 30px 30px;
+//  position: relative; /*포지션이동하기위함*/
+//  top: 40px; /*위에서부터 떨어지기*/
+//  left: 80px;
+//  border-radius: 12px; /*둥글어지게*/
+//  box-shadow: 0 2px 2px 0 rgb(214, 214, 214);
+//}
+//
+//
+//.search_title{
+//  padding: 10px 0; /*세로 가로*/
+//  font-size: 24px;
+//  font-weight: 800;
+//  color: rgb(75, 75, 75);
+//}
+//
+//table{
+//  width: 100%; /*위치끝까지 가도록*/
+//}
+//
+//.search_sub_title{
+//  padding: 10px 0;
+//  font-size: 17px;
+//  font-weight: 600;
+//
+//}
+//
+//.search_input{
+//  height: 35px;
+//  width: 100%;
+//  color: rgb(100, 98, 98);
+//  font-size: 15px;
+//  border: 1px solid lightgray;
+//}
+//
+//.search_button{
+//  display: grid;
+//  justify-content: end;
+//  padding: 6px 0;
+//}
+//
+//.search_button button{
+//  background-color: rgb(62, 135, 218);
+//  color: white;
+//  width: 70px;
+//  height: 40px;
+//  font-weight: 900;
+//  border-radius: 6px;
+//  border: 0;
+//  cursor: pointer;
+//}
+//
+//main{
+//  margin: 30px 80px; /*세로 가로 */
+//}
+//.sec_title{
+//  font-size: 25px;
+//  font-weight: 800;
+//  color: rgb(66, 66, 66);
+//  margin-bottom: 20px;
+//}
+//
+//.card_box{
+//  /*가로로 만들어줌*/
+//  display: grid;
+//  grid-template-columns: 1fr 1fr 1fr; /*1:1:1 비율로*/
+//  grid-column-gap: 10px; /*쪼금씩 띄우기*/
+//}
+//
+//.card_img{
+//  background-image: url("../assets/images/peccy-climbing.png");
+//  height: 200px;
+//  width: 200px;
+//  background-size: 100% 100%;
+//}
+//
+//.card{
+//  display: grid;
+//  grid-template-columns: 1fr 1fr;
+//  border: 1px solid rgb(210, 210, 210);
+//  border-radius: 6px;
+//
+//}
+//
+//.card_content{
+//  display: grid;
+//  justify-content: center;
+//  margin-left: 10px;
+//}
+//
+//
+//.home_box{
+//  display: grid;
+//  grid-template-columns: 1fr 1fr 1fr;
+//  grid-gap: 10px;
+//  margin-top: 20px;
+//
+//}
+//
+//.home_img{
+//  height: 260px;
+//  width: 260px;
+//  background-size: 100% 100%;
+//}
+//
+//.beach {
+//  background-image: url("../assets/images/peccy-beach.png");
+//}
+//.climbing {
+//  background-image: url("../assets/images/peccy-climbing.png");
+//}
+//.sunset {
+//  background-image: url("../assets/images/peccy-sunset.png");
+//}
+//
+//.info1{
+//  margin: 5px 0;
+//  font-size: 14px;
+//  color: gray;
+//}
+//
+//.info2{
+//  font-size: 19px;
+//  font-weight: 600;
+//  color: rgb(60, 60, 60);
+//}
+//.description {
+//  font-size: 16px;
+//}
